@@ -1,0 +1,10 @@
+# Local build and runtime artifacts
+*.class
+**/target/
+**/out/
+**/out8/
+**/out25/
+**/my-runtime/
+.idea/
+*.iml
+.DS_Store
