@@ -4,7 +4,7 @@
 
 ## 每次新会话开始
 1. 读取 README.md、docs/00-repository-guide.md、docs/01-learning-progress.md。
-2. 读取 docs/06-course-standards.md、docs/CHANGELOG.md；若完整课程总纲已归档，再读取 docs/00-course-outline.md。
+2. 读取 docs/06-course-standards.md、docs/CHANGELOG.md；读取 docs/00-course-outline.md。
 3. 根据进度定位当前章节，读取对应讲义、实验及验收记录；不要求用户重新描述已经记录的信息。
 4. 以仓库实际内容为准，不把计划目录或聊天中的内容误认为已提交文件。发生冲突时说明差异，未经确认不擅自标记用户已掌握。
 
