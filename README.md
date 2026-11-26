@@ -18,12 +18,13 @@
 - [API 变更索引](docs/04-api-change-index.md)
 - [企业项目迁移检查清单](docs/05-migration-checklist.md)
 
-## 待归档课程资料
-- part01-foundation/chapter01-java-evolution/lesson01-01/：第 1.1 节完整讲义、实验代码、练习及参考资料
+## 已归档课程讲义
+
+- [第 1.1 节 Java SE、JDK、JRE、JVM 的关系](part01-foundation/chapter01-java-evolution/lesson01-01/README.md)
 
 ## 当前学习状态
 
-第 1.1 节已讲授，实验与验收待确认；下一节为 1.2 Oracle JDK 与 OpenJDK。详细状态以进度文件为准。
+第 1.1 节已讲授、已归档，实验与验收待确认；下一节为 1.2 Oracle JDK 与 OpenJDK。详细状态以进度文件为准。
 
 ## 维护约定
 
