@@ -13,12 +13,12 @@
 - [协作与跨会话恢复规则](AGENTS.md)
 - [修订记录](docs/CHANGELOG.md)
 
-## 待归档课程资料
+- [JDK 版本覆盖索引](docs/02-version-feature-index.md)
+- [JEP 索引](docs/03-jep-index.md)
+- [API 变更索引](docs/04-api-change-index.md)
+- [企业项目迁移检查清单](docs/05-migration-checklist.md)
 
-- docs/02-version-feature-index.md：JDK 版本索引
-- docs/03-jep-index.md：JEP 索引
-- docs/04-api-change-index.md：API 变更索引
-- docs/05-migration-checklist.md：迁移检查清单
+## 待归档课程资料
 - part01-foundation/chapter01-java-evolution/lesson01-01/：第 1.1 节完整讲义、实验代码、练习及参考资料
 
 ## 当前学习状态

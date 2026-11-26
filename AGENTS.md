@@ -5,8 +5,9 @@
 ## 每次新会话开始
 1. 读取 README.md、docs/00-repository-guide.md、docs/01-learning-progress.md。
 2. 读取 docs/06-course-standards.md、docs/CHANGELOG.md；读取 docs/00-course-outline.md。
-3. 根据进度定位当前章节，读取对应讲义、实验及验收记录；不要求用户重新描述已经记录的信息。
-4. 以仓库实际内容为准，不把计划目录或聊天中的内容误认为已提交文件。发生冲突时说明差异，未经确认不擅自标记用户已掌握。
+3. 涉及版本、JEP、API 或迁移时读取 docs/02-version-feature-index.md、docs/03-jep-index.md、docs/04-api-change-index.md、docs/05-migration-checklist.md，逐节核验对应条目。
+4. 根据进度定位当前章节，读取对应讲义、实验及验收记录；不要求用户重新描述已经记录的信息。
+5. 以仓库实际内容为准，不把计划目录或聊天中的内容误认为已提交文件。发生冲突时说明差异，未经确认不擅自标记用户已掌握。
 
 ## 每节课程结束
 - 以 Markdown 保存完整讲义，按约定目录保存可独立运行的代码、实验、练习、答案及官方资料。
