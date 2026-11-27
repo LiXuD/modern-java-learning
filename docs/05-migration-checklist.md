@@ -10,6 +10,13 @@
 - [ ] 记录基准吞吐量、P50/P95/P99、错误率、CPU、内存/RSS、GC 停顿、启动时间及工作负载。
 - [ ] 明确可接受差异、SLO、验收阈值、回滚条件和责任人。
 
+### 发行商和授权专项（1.2）
+- [ ] 核对 JDK 产品、完整更新版本、来源、实际 LICENSE/NOTICE 与合同；记录二进制 SHA-256、供应链及安全更新政策。
+- [ ] Oracle JDK 21.0.13（2026-10-20）起 OTN，Oracle JDK 25 NFTC 更新计划截至 2028-09；切换更新时重新核对，不能用停止打补丁替代安全维护。
+- [ ] 区分内部生产与随产品分发，检查实际运行时镜像及第三方组件许可，明确 SLA 与支持责任。
+- [ ] 同主版本换发行商仍需功能、TLS/证书、Agent、JNI、GC 及性能回归，不能用 TCK 代替。
+- 参见 [1.2 讲义](../part01-foundation/chapter01-java-evolution/lesson01-02/README.md)、[Oracle JDK 21.0.13 发布说明](https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html)。
+
 ## 2. 静态分析与构建
 - [ ] 运行依赖树，升级编译器、测试插件、字节码工具与依赖；逐版本核对供应商支持矩阵。
 - [ ] 使用目标 JDK 的 jdeps 检查内部 API/缺失依赖、jdeprscan 检查废弃 API。

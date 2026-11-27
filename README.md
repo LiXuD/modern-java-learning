@@ -22,9 +22,11 @@
 
 - [第 1.1 节 Java SE、JDK、JRE、JVM 的关系](part01-foundation/chapter01-java-evolution/lesson01-01/README.md)
 
+- [第 1.2 节 Oracle JDK 与 OpenJDK](part01-foundation/chapter01-java-evolution/lesson01-02/README.md)
+
 ## 当前学习状态
 
-第 1.1 节已讲授、已归档，理论验收通过（选择题 8/8，思考题 21/30，补充验收 9/10），动手实验待确认；下一节为 1.2 Oracle JDK 与 OpenJDK。详细状态以进度文件为准。
+第 1.1 节已讲授、已归档，理论验收通过（选择题 8/8，思考题 21/30，补充验收 9/10），动手实验待确认；第 1.2 节已讲授、已归档，作业及验收待确认；下一节为 1.3 LTS 与版本发布机制。详细状态以进度文件为准。
 
 ## 维护约定
 

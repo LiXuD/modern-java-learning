@@ -33,3 +33,6 @@
 - [JEP 索引](03-jep-index.md)、[API 变更索引](04-api-change-index.md)
 
 核验范围：本次访问 Oracle 语言变化、迁移指南和 25/26/27 重大变化；OpenJDK 项目页面直接访问 403。其他历史项目链接为查证入口，尚未逐个访问。发行版具体支持周期另见 Oracle 或对应发行商政策。每次课程更新相关行，不以版本主号代替特性状态。
+
+## 发行版授权补充（1.2，2026-11-27）
+授权属于发行产品及更新政策，不是 JDK 语言/API 变更。Oracle JDK 8 自 2019-04-16 的更新转 OTN；17.0.13 起 OTN；21.0.13（2026-10-20）起 OTN；25 NFTC 更新计划至 2028-09。其他 OpenJDK 发行版按自身许可证。参见 [1.2 讲义](../part01-foundation/chapter01-java-evolution/lesson01-02/README.md)、[Oracle 21.0.13](https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html)。
