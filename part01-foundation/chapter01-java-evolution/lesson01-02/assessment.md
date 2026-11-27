@@ -27,7 +27,7 @@
 
 复核：[Oracle 21.0.13 发布说明](https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html)、[OTN 原文](https://www.oracle.com/downloads/licenses/javase-license1.html)、[NFTC 原文](https://www.oracle.com/downloads/licenses/no-fee-license.html)。GPLv2+CPE 参考第 1.2 节讲义及官方许可入口；本次 GNU 页面访问超时。此处为教学评价，不是企业法律意见。
 
-## 补充验收题（待答）
+## 首次补充验收题（已作答）
 
 企业开发收费的 Java 应用，既要在内部生产环境部署，又要将 jlink 运行时随收费产品交付客户。
 
@@ -36,11 +36,36 @@
 
 答对关键区别即可通过补充理论验收；不需要背诵条款。迁移具体测试项作为后续 41–44 章复习重点。
 
+## 补充验收评审（2026-11-27）
+
+本次形成性评分 7/10；保留原选择题 8/8、思考题 14/30，不合并成绩。
+
+| 考察点 | 得分 | 反馈 |
+| --- | ---: | --- |
+| Oracle JDK 21.0.13 / Temurin 21 许可 | 2/2 | 正确：OTN / GPLv2+CPE。 |
+| 内部生产选型 | 2/2 | 正确：无其他适用 Oracle 授权时选择 Temurin，关注兼容性验证及长期更新。 |
+| 独立业务代码 | 1/1 | 正确：不会仅因调用适用 CPE 的类库而必须公开。 |
+| OpenJDK 修改和分发 | 0/3 | 误认为不能修改 OpenJDK；未说明许可证保留、对应源码提供义务。 |
+| NFTC 收费分发 | 2/2 | 正确：NFTC 内部无费使用不等于收费捆绑授权；须另行取得适用分发许可。 |
+
+### 最后一个纠偏点
+
+Java SE 规范与 OpenJDK 实现是不同层次。GPLv2 允许修改 OpenJDK 实现及分发修改后的版本；是否仍符合 Java SE 规范或可声称原兼容性认证是另一问题。对外分发 GPLv2 覆盖的二进制（包括未修改的 jlink 镜像）须履行 GPL 第 1–3 节及实际组件许可证义务：保留版权和许可声明，提供 GPL 文本，按条款提供完整对应源码（含相关修改和构建脚本）或采用适用的书面提供源码承诺等合规方式。对商业分发者，不应仅依赖指向任意上游源码链接或转述他人的书面承诺。修改后仅内部使用通常不触发 GPLv2 对外分发源码义务。CPE 针对独立模块，不豁免 JDK 本身义务；jlink 不会消除许可证。
+
+官方核对：[OpenJDK 21 LICENSE](https://github.com/openjdk/jdk21/blob/master/LICENSE)、[GPLv2 第 1–3 节](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)、[GNU GPLv2 FAQ](https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html)、[Adoptium FAQ](https://adoptium.net/docs/faq/)、[Oracle JDK 21.0.13](https://www.oracle.com/java/technologies/javase/21-0-13-relnotes.html)、[NFTC](https://www.oracle.com/downloads/licenses/no-fee-license.html)。本次 OpenJDK 原许可页面直接访问 403、GNU 英文正文直接访问超时，使用官方源码仓库 LICENSE 与 GNU 搜索结果、FAQ 交叉核对；不构成针对实际合同的法律意见。
+
+### 最终补充题（仅一个知识点）
+
+公司修改 Temurin/OpenJDK 的源代码，并将修改后的运行时随收费软件交付。GPLv2 是否允许修改？交付运行时需要保留哪些信息、提供哪部分对应源码？独立业务源码是否仅因使用适用 CPE 的类库而必须公开？
+
+正确回答此点即可完成本节补充理论验收；实验独立记录。
+
 ## 待完成
 
 - [x] 三道思考题已提交并评审（14/30）。
-- [ ] 补充理论验收。
+- [x] 首次补充验收已评审（7/10）。
+- [ ] 最终补充题：GPLv2 修改权及分发对应源码义务。
 - [ ] 环境识别及授权判断实验。
 - [ ] 同主版本发行版对照实验（可在第 02 章补做）。
 
-状态：选择题通过，三道思考题已评审；理论综合验收待补充，实验待确认。
+状态：选择题通过，三道思考题已评审；补充验收 7/10，仅 GPLv2 修改权及分发对应源码义务待确认；理论综合验收尚未通过，实验待确认。
